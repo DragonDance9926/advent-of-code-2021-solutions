@@ -42,5 +42,6 @@ for fold in folds:
                 dots[2*y-j][i] = 1
                 coordinates.append(f"{i},{2*y-j}")
 
+print(dots[:6,:40])
 
-print(dots[:6,:40])           
+           
