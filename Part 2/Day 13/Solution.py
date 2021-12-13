@@ -41,5 +41,6 @@ for fold in folds:
             if j > y and (dots[j][i] == 1 or dots[2*y-j][i] == 1):
                 dots[2*y-j][i] = 1
                 coordinates.append(f"{i},{2*y-j}")
-            
+
+
 print(dots[:6,:40])           
